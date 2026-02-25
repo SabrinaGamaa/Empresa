@@ -106,5 +106,4 @@ Organização baseada na arquitetura padrão do Django, garantindo manutenção 
 ---
 
 **Sabrina Gama** – Desenvolvedora Backend em formação
-git clone https://github.com/SabrinaGamaa/Empresa.git
-cd Empresa
+
