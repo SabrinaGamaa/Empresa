@@ -1,56 +1,70 @@
-# 🏢 Sistema Web Corporativo - Django
+<!-- HEADER BADGES -->
+<p align="center">
+  <img src="imagens/Logo-Branet.png" width="120" alt="Projeto Empresa" />
+</p>
 
-Sistema web corporativo desenvolvido com **Django**, focado em autenticação segura, controle de acesso e gerenciamento de dados em banco relacional.
+<h1 align="center">Sistema Web Corporativo - Django</h1>
 
-A aplicação foi publicada em ambiente de produção na plataforma Render utilizando **PostgreSQL**, seguindo boas práticas de configuração para ambiente cloud.
-
----
-
-![Tela de Login](login.png)
-
----
-
-## 🚀 Funcionalidades
-
--  Sistema completo de autenticação (login e logout)
--  Controle e gerenciamento de usuários
--  Proteção de rotas com controle de acesso
--  CRUD completo de registros
--  Integração com banco de dados PostgreSQL
--  Estrutura organizada seguindo o padrão MTV do Django
--  Deploy em produção no Render
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Django-3.x-%23492E8A?logo=django" alt="Django"></a>
+  <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-%23336791?logo=postgresql" alt="PostgreSQL"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Deploy-Render-purple" alt="Deploy"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Status-Production-success" alt="Status"></a>
+</p>
 
 ---
 
-![Tela Home de Pedidos](pedidos.png)
-![Tela de relatório de separadores](relatorio.png)
+## 📌 Sobre o Projeto
+
+Este é um **sistema web corporativo completo**, desenvolvido com **Django** e integrado com **PostgreSQL** em produção, com autenticação segura de usuários, controle de acesso, gerenciamento de dados e deploy em ambiente cloud.
+
+O projeto representa uma aplicação real de backend em empresa, demonstrando organização de código, segurança, arquitetura escalável e boas práticas de desenvolvimento.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🖼️ Visualizações do Sistema
 
-- Python
-- Django
-- PostgreSQL (produção)
-- HTML
-- CSS
-- Bootstrap
-- Render (Deploy em cloud)
+<p align="center">
+  <img src="login.png" width="600" alt="Tela de Login" />
+</p>
+
+<p align="center">
+  <img src="pedidos.png" width="600" alt="Gestão de Usuários" />
+</p>
+
+<p align="center">
+  <img src="relatorio.png" width="600" alt="Dashboard" />
+</p>
 
 ---
 
-## 🧠 Objetivo do Projeto
+## 🚀 Funcionalidades / Features
 
-Desenvolver um sistema web corporativo funcional aplicando:
+### 🔐 Autenticação e Segurança
+- Login e logout de usuários
+- Criptografia de senhas
+- Proteção de rotas reservadas
+- Perfil novo somente com autorização do ADMIN
 
-- Autenticação nativa do Django
-- Modelagem de banco de dados com ORM
-- Configuração de banco PostgreSQL em ambiente cloud
-- Separação de responsabilidades (Models, Views, Templates)
-- Segurança e controle de acesso
-- Deploy profissional em produção
+### 🗄️ Banco de Dados (PostgreSQL)
+- Conexão com banco em produção
+- Modelos definidos com Django ORM
 
-O projeto demonstra capacidade de desenvolver e publicar uma aplicação real, configurando corretamente banco de dados externo e variáveis de ambiente.
+### 📋 CRUD Completo
+- Cadastro, leitura, edição e remoção de dados
+- Interface intuitiva via templates
+
+### 🌐 Ambiente de Produção
+- Deploy no **Render**
+- Configuração de **variáveis de ambiente**  
+  (`SECRET_KEY`, `DATABASE_URL`, `DEBUG=false`)
+
+---
+
+## 🏗️ Arquitetura
+
+O projeto segue o padrão **MTV (Model-Template-View)** do Django:
 
 ---
 
@@ -74,8 +88,23 @@ Organização baseada na arquitetura padrão do Django, garantindo manutenção 
 
 ---
 
-Sabrina Gama
+- ✅ **Models** → estrutura de dados e regras de negócio  
+- ✅ **Views** → lógica da aplicação e processamento  
+- ✅ **Templates** → páginas HTML renderizadas  
+- ✅ **Configurações separadas** para desenvolvimento e produção
 
-```bash
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- 🐍 Python  
+- 🟢 Django  
+- 🐘 PostgreSQL  
+- 🖥️ HTML / CSS / Bootstrap  
+- ☁️ Render (Deploy)
+
+---
+
+**Sabrina Gama** – Desenvolvedora Backend em formação
 git clone https://github.com/SabrinaGamaa/Empresa.git
 cd Empresa
